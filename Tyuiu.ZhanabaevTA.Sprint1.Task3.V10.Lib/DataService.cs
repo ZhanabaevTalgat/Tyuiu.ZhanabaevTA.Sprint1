@@ -6,7 +6,7 @@ namespace Tyuiu.ZhanabaevTA.Sprint1.Task3.V10.Lib
     {
         public double NumberToMoney(double number)
         {
-            return (double)((int)(number * 1000 + 0.5)) / 1000;
+            return (double)((int)(number * 100 + 0.5)) / 100;
         }
     }
 }

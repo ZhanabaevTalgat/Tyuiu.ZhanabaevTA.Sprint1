@@ -27,21 +27,14 @@ namespace Tyuiu.ZhanabaevTA.Sprint1.Task3.V10
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine("Введите дробное число ->");
-            double a = ds.NumberToMoney(Convert.ToDouble(Console.ReadLine()));
+            double a = Convert.ToDouble(Console.ReadLine());
+            double b = ds.NumberToMoney(a);
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            string[] r = a.ToString().Split(',');
-            if (r[1].Length < 2)
-            {
-                r[1] += "0";
-            }
-            if (r[1].Length > 2)
-            {
-                r[1] = r[1].Substring(0,2);
-            }
+            string[] r = b.ToString().Split(',');
             Console.WriteLine($"{a} руб. - это {r[0]} руб. {r[1]} коп.");
 
             Console.ReadKey();
