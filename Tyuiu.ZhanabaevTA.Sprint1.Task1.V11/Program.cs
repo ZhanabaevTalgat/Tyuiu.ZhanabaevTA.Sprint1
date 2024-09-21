@@ -33,6 +33,8 @@ namespace Tyuiu.ZhanabaevTA.Sprint1.Task1.V11
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine(ds.Calculate(x, y));
+
+            Console.ReadKey();
         }
     }
 }
