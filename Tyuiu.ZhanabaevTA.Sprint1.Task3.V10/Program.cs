@@ -13,7 +13,7 @@ namespace Tyuiu.ZhanabaevTA.Sprint1.Task3.V10
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема:  Создания итогового решения по спринту                            *");
+            Console.WriteLine("* Тема:  Операторы составного присваивания                                *");
             Console.WriteLine("* Задание #3                                                              *");
             Console.WriteLine("* Вариант #10                                                             *");
             Console.WriteLine("* Выполнил: Жанабаев Талгат Асылбекович | РППб-24-1                       *");
@@ -37,6 +37,10 @@ namespace Tyuiu.ZhanabaevTA.Sprint1.Task3.V10
             if (r[1].Length < 2)
             {
                 r[1] += "0";
+            }
+            if (r[1].Length > 2)
+            {
+                r[1] = r[1].Substring(0,2);
             }
             Console.WriteLine($"{a} руб. - это {r[0]} руб. {r[1]} коп.");
 
