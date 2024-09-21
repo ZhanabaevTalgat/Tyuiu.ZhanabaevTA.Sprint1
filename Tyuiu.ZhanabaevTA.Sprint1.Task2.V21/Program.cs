@@ -18,13 +18,16 @@ namespace Tyuiu.ZhanabaevTA.Sprint1.Task2.V21
             Console.WriteLine("* Выполнил: Жанабаев Талгат Асылбекович | РППб-24-1                       *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
-            Console.WriteLine("* выполняет указанные расчёты и печатает результат на экране.             *");
+            Console.WriteLine("* Известны длины стороны прямоугольника.                                  *");
+            Console.WriteLine("* Вычислить площадь прямоугольника.                                       *");
             Console.WriteLine("*                                                                         *");
+            Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
+            Console.WriteLine("Сторона a:");
             int value = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Сторона b:");
             int valueTwo = Convert.ToInt32(Console.ReadLine());
             
             Console.WriteLine("***************************************************************************");
@@ -32,6 +35,8 @@ namespace Tyuiu.ZhanabaevTA.Sprint1.Task2.V21
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine(ds.CalculateRectangleSquare(value, valueTwo));
+
+            Console.ReadKey();
         }
     }
 }
