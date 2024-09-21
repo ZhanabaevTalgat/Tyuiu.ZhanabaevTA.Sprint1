@@ -26,9 +26,9 @@ namespace Tyuiu.ZhanabaevTA.Sprint1.Task2.V21
 
             Console.WriteLine("Введите значение 1:");
             int value = Convert.ToInt32(Console.ReadLine());
-            /* Console.WriteLine("Введите значение 2:");
+            Console.WriteLine("Введите значение 2:");
             int valueTwo = Convert.ToInt32(Console.ReadLine());
-            */
+            
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
