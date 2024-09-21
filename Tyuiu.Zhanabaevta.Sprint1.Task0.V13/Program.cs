@@ -21,6 +21,7 @@ namespace Tyuiu.Zhanabaevta.Sprint1.Task0.V13
             Console.WriteLine("* Написать программу, которая вычисляет выражение 24/(6*2)-24/6/4         *");
             Console.WriteLine("* и печатает результат на экране                                          *");
             Console.WriteLine("*                                                                         *");
+            Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* 24/(6*2)-24/6/4                                                         *");
@@ -30,7 +31,7 @@ namespace Tyuiu.Zhanabaevta.Sprint1.Task0.V13
 
             Console.WriteLine(ds.Calculate());
 
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
